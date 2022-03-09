@@ -1,0 +1,14 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.jogo{
+    text-align: center;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(202, 188, 169);
+    border: 1px solid black;
+    display: inline-block;
+}
