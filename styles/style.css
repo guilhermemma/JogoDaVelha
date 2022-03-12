@@ -1,14 +1,19 @@
+body{
+    background-color: rgb(45, 19, 66);
+}
 h1{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    color: white;
 }
 .jogo{
     text-align: center;
+    
 }
 .square{
     width: 100px;
     height: 100px;
-    background-color: rgb(202, 188, 169);
+    background-color: rgb(255, 255, 255);
     border: 1px solid black;
     display: inline-block;
 }
@@ -17,8 +22,8 @@ h1{
 }
 .o::after{
     position: absolute;
-    content: "o";
-    font-size: 50px;
+    content: "o"; 
+    font-size: 60px;
     line-height: 100px;
     top: 0;
     bottom: 0;
@@ -31,7 +36,7 @@ h1{
 .x::after{
     position: absolute;
     content: "x";
-    font-size: 50px;
+    font-size: 60px;
     line-height: 100px;
     top: 0;
     bottom: 0;
